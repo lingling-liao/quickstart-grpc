@@ -47,7 +47,7 @@ sudo docker run --gpus all --name grpc-client -v ./gRPC/client:/media -itd tenso
 Repeat the 
 * Show running containers and run a command in a running container
 * Install git and grpc
-* Clone the repository to get the example code`
+* Clone the repository to get the example code
 
 ```
 sudo chown -R swpc ./gRPC/client/grpc
@@ -67,4 +67,4 @@ Run greeter_client.py
 python greeter_client.py
 ```
 
-**Then you will see "Greeter client received: Hello, you!"**
+_Then you will see "Greeter client received: Hello, you!"_
