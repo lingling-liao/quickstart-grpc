@@ -44,7 +44,10 @@ Running Container
 sudo docker run --gpus all --name grpc-client -v ./gRPC/client:/media -itd tensorflow/tensorflow:2.2.0-gpu
 ```
 
-Repeat the `Show running containers and run a command in a running container`, `Install git and grpc` and `Clone the repository to get the example code`
+Repeat the 
+* Show running containers and run a command in a running container
+* Install git and grpc
+* Clone the repository to get the example code`
 
 ```
 sudo chown -R swpc ./gRPC/client/grpc
