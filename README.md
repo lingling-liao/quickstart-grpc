@@ -50,14 +50,14 @@ Repeat the `Show running containers and run a command in a running container`, `
 sudo chown -R swpc ./gRPC/client/grpc
 ```
 
-Open ./gRPC/client/grpc/examples/python/helloworld/greeter_client.py
+Open `./gRPC/client/grpc/examples/python/helloworld/greeter_client.py`
 
 Check container ip
 ```
 docker network inspect bridge
 ```
 
-Change **with grpc.insecure_channel**`('localhost:50051')` **as channel:** into `('172.17.0.2:50051')`
+Change **with grpc.insecure_channel`('localhost:50051')` as channel:** into **`('172.17.0.2:50051')`**
 
 Run greeter_client.py
 ```
